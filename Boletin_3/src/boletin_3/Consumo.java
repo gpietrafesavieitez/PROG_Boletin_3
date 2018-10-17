@@ -24,6 +24,10 @@ public class Consumo {
     
     //Métodos
         //Getters
+        public float getVMed(){
+            return vMed;
+        }
+        
         public float getTempo(){
             return km / vMed;
         }
@@ -35,7 +39,7 @@ public class Consumo {
         public float consumoEuros(){
             return (km * pGas) / 100;
         }
-
+        
         //Setters
         public void setKms(float km){
             this.km = km;
